@@ -8,12 +8,33 @@
 
 ![iTerm2_2021-10-05 02-50-34@2x](https://user-images.githubusercontent.com/6877391/135943559-f864c8ec-290e-4317-b127-f6262db4fb26.jpg)
 
+## How to use 
 
-<!-- ## Features
+Read [setup here](https://github.com/jasonacox/tinytuya#tinytuya-setup), then it should be pretty clear how to use this script.
 
--
--
-- -->
+I'm storing values in `constants.py` file which is excluded from this repo but you can hardcode these values if you want.
+
+In:
+
+```python
+device = tinytuya.OutletDevice(constants.Lampki_device_ID, constants.Lampki_device_IP, constants.Lampki_device_key) # device = Lampki
+```
+replace: 
+- `constants.Lampki_device_ID` to your `device_ID`, eg. `00000000000000000000`
+- `constants.Lampki_device_IP` to your `device_IP`, eg. `192.168.1.200`
+- `constants.Lampki_device_key` to your `device_key`, eg. `ab0000abc00bbaaa`
+
+so it looks like this:
+```python
+device = tinytuya.OutletDevice('00000000000000000000', '192.168.1.200', 'ab0000abc00bbaaa') # device = Lampki
+```
+
+All these values can be taken from _Wizard_, [see more here](https://github.com/jasonacox/tinytuya#setup-wizard).
+
+## Features
+
+- Turn on a device 🟢
+- Turn off a device 🔴
 
 ## Release History
 
