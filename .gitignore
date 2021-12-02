@@ -5,7 +5,12 @@ _old
 
 # tinytuya wizard
 wizard
+devices.json
+tinytuya.json
+tuya-raw.json
 
 # other
 constants.py
 __pycache__
+automate
+.ds_store

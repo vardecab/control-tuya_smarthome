@@ -23,9 +23,18 @@
 
 Using [SemVer](http://semver.org/).
 
+## License
+![](https://img.shields.io/github/license/vardecab/control-tuya_smarthome)
+
 ## Acknowledgements
 
 - [tinytuya](https://github.com/jasonacox/tinytuya)
 - [Tuya IoT Platform](https://iot.tuya.com/)
 - [How to get a value from a nested dictionary](https://stackoverflow.com/questions/25833613/safe-method-to-get-value-of-nested-dictionary)
 - [Save secret stuff in a different file](https://stackoverflow.com/questions/6345840/whats-the-best-way-to-initialise-and-use-constants-across-python-classes)
+
+## Contributing
+
+![](https://img.shields.io/github/issues/vardecab/control-tuya_smarthome)
+
+If you found a bug or want to propose a feature, feel free to visit [the Issues page](https://github.com/vardecab/control-tuya_smarthome/issues).
