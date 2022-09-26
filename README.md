@@ -1,5 +1,7 @@
 # control-tuya_smarthome
 
+![Actively Maintained](https://img.shields.io/badge/Maintenance%20Level-Actively%20Maintained-green.svg)
+<br>
 ![](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blue)
 
 >Python scripts that allow me to control Tuya-compatible smart Wi-Fi light bulbs & sockets at home. 
