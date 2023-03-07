@@ -1,6 +1,6 @@
 # ==================================== #
 #        control-tuya_smarthome        #
-#                Lampki                # 
+#          SwiatelkaSypialnia          #    
 # ==================================== #
 
 # ------------ import libs ----------- #
@@ -9,7 +9,7 @@ import constants # file
 
 # --------------- magic -------------- #
 
-device = tinytuya.OutletDevice(constants.Lampki_device_ID, constants.Lampki_device_IP, constants.Lampki_device_key) # device = Lampki
+device = tinytuya.OutletDevice(constants.SwiatelkaSypialnia_device_ID, constants.SwiatelkaSypialnia_device_IP, constants.SwiatelkaSypialnia_device_key) # device = Przedłużacz
 
 device.set_version(3.3) # Tuya protocol version
 

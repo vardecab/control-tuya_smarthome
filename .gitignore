@@ -14,3 +14,4 @@ constants.py
 __pycache__
 automate
 .ds_store
+snapshot.json

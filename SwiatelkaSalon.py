@@ -1,23 +1,23 @@
 # ==================================== #
 #        control-tuya_smarthome        #
-#                Biurko                #
+#            SwiatelkaSalon            #    
 # ==================================== #
 
 # ------------ import libs ----------- #
 import tinytuya
-import constants # file 
+import constants # file
 
 # --------------- magic -------------- #
 
-device = tinytuya.BulbDevice(constants.Biurko_device_ID, constants.Biurko_device_IP, constants.Biurko_device_key) # device = Biurko
+device = tinytuya.OutletDevice(constants.SwiatelkaSalon_device_ID, constants.SwiatelkaSalon_device_IP, constants.SwiatelkaSalon_device_key) # device = Przedłużacz
 
 device.set_version(3.3) # Tuya protocol version
 
 data = device.status() # get info about device (on/off, mode, etc.)
 # print(data) # debug
-# print(data.get('dps',{}).get('20')) # debug
+# print(data.get('dps',{}).get('1')) # debug
 
-if data.get('dps',{}).get('20') == True: # check device's status to see if it's turned on or off
+if data.get('dps',{}).get('1') == True: # check device's status to see if it's turned on or off
     print('Device is turned ON.')
     print('Switching OFF...')
     device.turn_off()
